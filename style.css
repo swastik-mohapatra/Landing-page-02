@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lora&family=Roboto+Slab:wght@100&display=swap');
+
+html,body{
+  font-family: 'Lora', serif
+}
+.fontFamily{
+  font-family: 'Arvo', serif;
+}
+
+.vertical {
+            border-left: 2px solid white;
+            height: 50px;
+            
+        }
+
+.list-upper:hover{
+        opacity: 0.8;
+
+        }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+@media screen and (min-width:1200px) {
+      .navbar-edit{
+        margin-left: 170px;
+      }
+}
+
+
+
+@media screen and (max-width:675px) {
+  
+        .small-sc{
+        position: relative;
+        
+        display: flex;
+        text-align: center;
+        
+    }
+    .displaying{
+        display: none;
+    }
+    .fa-phone{
+      margin-right: 12px;
+      margin-top: 17px;
+      margin-left: 7px;
+      
+      
+    }
+    
+    .list-upper{
+       padding-bottom: 17px;
+    }
+    .navbar-edit{
+    text-align: center;
+    }
+    
+    .firstGrid{
+      margin-bottom: 18px;
+    } 
+    .footer-links{
+  margin-top: -10px;
+}
+footer{
+  text-align: center;
+  justify-content: center;
+}
+}
+.badge:after{
+content:attr(value);
+font-size:12px;
+background: red;
+border-radius:50%;
+padding:3px;
+position:relative;
+left:-8px;
+top:-10px;
+opacity:0.9;
+}
+.jumbotron{
+    background-image: url("https://thumbs.dreamstime.com/b/random-building-blue-sky-background-wallpaper-58664650.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color:transparent;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+  font-weight: bolder;
+}
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size:23px;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;  font-size: 28px;
+  transition: 0.8s;
+}
+iframe{
+    margin-top:-30px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+.credentials{
+  margin-top:-30px
+}
+
+.footer-links{
+  margin-top: 60px;
+}
+.horizontal{
+  width: 100%;
+ 
+  border-bottom: 2px solid white;
+}
+footer{
+  background-image: url("https://medtatt.com/wp-content/uploads/2018/03/DNA.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  opacity: 0.992;
+}
+
+/*scroll top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: rgb(241, 220, 220);
+  transition: 0.9s;
+  color: black;
+}
